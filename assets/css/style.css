@@ -1,0 +1,23 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.top-bar{
+    background-color: #403F3D;
+    color: white;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.titulo{
+
+  font-size: 40px;
+
+}
+
