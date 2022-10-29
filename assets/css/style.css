@@ -1,83 +1,94 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
 
-:root{
+:root {
   font-size: 10px;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-  
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
-
-.container{
+.container {
   max-width: 1080px;
   margin: 0 auto;
   font-size: 1.6rem;
   padding: 1rem;
 }
 
-
-.top-bar{
-    background-color: #403F3D;
-    color: white;
-    height: 5rem;
-    font-size: 1.8rem;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem;
-
+header {
+  width: 100%;
+  background-color: #403f3d;
 }
 
-.row{
+.top-bar {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.top-bar section {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar section a {
+  font-size: 3rem;
+  color: white;
+}
+
+.menu-nav,
+.menu-nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.menu-nav ul li a {
+  color: white;
+  font-size: 2rem;
+}
+
+.row {
   width: 100%;
   height: 1.5rem;
   background-color: orange;
   margin-bottom: 3rem;
-
 }
 
-.titulo h1{
+.titulo h1 {
   font-weight: 800;
   font-size: 6rem;
   margin-bottom: 4rem;
   width: 100%;
-
 }
 
-
-
-.titulo div{
- text-align: left;
- margin-left: 7rem;
-
-
+.titulo div {
+  text-align: left;
+  margin-left: 7rem;
 }
 
 .titulo div h2 {
   font-weight: 400;
   font-size: 1.8rem;
   margin-bottom: 2rem;
-
 }
 
 .titulo div p {
   font-size: 1.3rem;
-
 }
-
 
 .link {
   display: flex;
-
 }
 
 .link ul {
@@ -86,68 +97,53 @@ body{
   gap: 2rem;
   margin-top: 3rem;
   margin-left: 7rem;
-
-
 }
 
-hr{
+hr {
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 5rem;
-  
 }
 
-.texto{
-  max-width: 65%;
+.texto {
+  max-width: 60%;
   margin: 0 auto;
   text-align: justify;
-  font-size: 2rem;
-
+  font-size: 2.2rem;
 }
 
-.texto p{
-
+.texto p {
   margin-bottom: 3.3rem;
-
 }
 
-.img img{
+.img img {
   max-width: 100%;
   margin: 0 auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
-
 }
 
 .img p {
   margin-bottom: 2rem;
-
 }
 
-
 .texto h1 {
-
   font-weight: bold;
   padding: 2rem;
-
 }
 
 .img a {
-
   font-size: 2rem;
   color: orange;
   font-weight: bold;
-
 }
 
-.img span{
+.img span {
   font-size: 2rem;
 }
 
-
-
-footer{
-  background-color: #403F3D;
+footer {
+  background-color: #403f3d;
   color: white;
   height: 8rem;
   font-size: 1.8rem;
@@ -156,11 +152,57 @@ footer{
   align-items: center;
   justify-content: center;
   padding: 1.2rem;
- 
 }
 
 footer a {
-  
-color:white
+  color: white;
+}
+
+@media screen and (max-width: 740px) {
+ 
+  .top-bar {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .menu-nav ul {
+    display: none;
+  }
+
+
+.titulo h1 {
+  font-size: 3rem;
+  text-align: justify;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.titulo div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0rem;
+  padding: 1rem;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+ margin-top: 2rem;
+
+}
+
+.link ul {
+  margin: 0;
+}
+
+.texto {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 2rem;
+  padding: 1rem;
+}
 
 }
