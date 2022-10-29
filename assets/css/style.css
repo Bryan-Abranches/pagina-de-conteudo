@@ -1,166 +1,23 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
-:root{
-  font-size: 10px;
-}
-
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
-  
+    
 }
-
-
-.container{
-  max-width: 1080px;
-  margin: 0 auto;
-  font-size: 1.6rem;
-  padding: 1rem;
-}
-
 
 .top-bar{
     background-color: #403F3D;
     color: white;
-    height: 5rem;
-    font-size: 1.8rem;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 800;
 
 }
 
-.row{
-  width: 100%;
-  height: 1.5rem;
-  background-color: orange;
-  margin-bottom: 3rem;
+.titulo{
+
+  font-size: 40px;
 
 }
 
-.titulo h1{
-  font-weight: 800;
-  font-size: 6rem;
-  margin-bottom: 4rem;
-  width: 100%;
-
-}
-
-
-
-.titulo div{
- text-align: left;
- margin-left: 7rem;
-
-
-}
-
-.titulo div h2 {
-  font-weight: 400;
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
-
-}
-
-.titulo div p {
-  font-size: 1.3rem;
-
-}
-
-
-.link {
-  display: flex;
-
-}
-
-.link ul {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
-  margin-top: 3rem;
-  margin-left: 7rem;
-
-
-}
-
-hr{
-  width: 100%;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-  
-}
-
-.texto{
-  max-width: 65%;
-  margin: 0 auto;
-  text-align: justify;
-  font-size: 2rem;
-
-}
-
-.texto p{
-
-  margin-bottom: 3.3rem;
-
-}
-
-.img img{
-  max-width: 100%;
-  margin: 0 auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-
-}
-
-.img p {
-  margin-bottom: 2rem;
-
-}
-
-
-.texto h1 {
-
-  font-weight: bold;
-  padding: 2rem;
-
-}
-
-.img a {
-
-  font-size: 2rem;
-  color: orange;
-  font-weight: bold;
-
-}
-
-.img span{
-  font-size: 2rem;
-}
-
-
-
-footer{
-  background-color: #403F3D;
-  color: white;
-  height: 8rem;
-  font-size: 1.8rem;
-  font-weight: bolder;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.2rem;
- 
-}
-
-footer a {
-  
-color:white
-
-}
